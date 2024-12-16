@@ -1,0 +1,14 @@
+server:
+  port: 5003
+spring:
+  application:
+    name: SUBMISSION-SERVICE
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/tms_submission
+    username: root
+    password: Rahul@123
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
